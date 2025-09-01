@@ -1,6 +1,6 @@
 {
   "name": "quickstart-verify",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "description": "Quickstart Doctor runner (wrapper to @qsdoctor/cli)",
   "bin": {

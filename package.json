@@ -20,5 +20,6 @@
   "homepage": "https://github.com/quickstart-doctor/quickstart-verify#readme",
   "engines": {
     "node": ">=18"
-  }
+  },
+  "files": "[\"bin\",\"README.md\",\"LICENSE\"]"
 }

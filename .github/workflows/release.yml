@@ -1,11 +1,11 @@
-name: release
 on:
   push:
     tags: ['v*.*.*']
   workflow_dispatch:
+
 permissions:
-  id-token: write
   contents: read
+
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -15,4 +15,6 @@ jobs:
         with:
           node-version: '20'
           registry-url: 'https://registry.npmjs.org'
-      - run: npm publish --access public --provenance
+      - run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

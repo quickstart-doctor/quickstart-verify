@@ -8,5 +8,17 @@
   },
   "dependencies": {
     "@qsdoctor/cli": "^0.0.3"
+  },
+  "keywords": "[\"cli\",\"quickstart\",\"readme\",\"onboarding\",\"doctor\"]",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quickstart-doctor/quickstart-verify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/quickstart-doctor/quickstart-verify/issues"
+  },
+  "homepage": "https://github.com/quickstart-doctor/quickstart-verify#readme",
+  "engines": {
+    "node": ">=18"
   }
 }

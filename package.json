@@ -3,6 +3,10 @@
   "version": "0.0.2",
   "type": "module",
   "description": "Quickstart Doctor runner (wrapper to @qsdoctor/cli)",
-  "bin": { "quickstart-verify": "bin/quickstart-verify.js" },
-  "dependencies": { "@qsdoctor/cli": "^0.0.2" }
+  "bin": {
+    "quickstart-verify": "bin/quickstart-verify.js"
+  },
+  "dependencies": {
+    "@qsdoctor/cli": "^0.0.3"
+  }
 }
